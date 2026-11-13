@@ -1,0 +1,51 @@
+{
+  "originHash" : "e1d637aab0476625da8231cb4b51f7ed8a7054615f0e8253eb8aa4ffff1a93a2",
+  "pins" : [
+    {
+      "identity" : "apphudsdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apphud/ApphudSDK",
+      "state" : {
+        "revision" : "4e030ce813184c85d0a252e43e1591ddc4a1f6e6",
+        "version" : "4.0.4"
+      }
+    },
+    {
+      "identity" : "appsflyerframework-dynamic",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Dynamic",
+      "state" : {
+        "revision" : "39d89f139c362e7e3a7ba5b582a7894254e5ebd8",
+        "version" : "7.0.1"
+      }
+    },
+    {
+      "identity" : "libxraybinary",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/TST-TEAM-APPS/LibXrayBinary",
+      "state" : {
+        "revision" : "eedd5a32331fd506a4b41ccccf1ebf533c3eb168",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "speedchecker-sdk-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/speedchecker/speedchecker-sdk-ios",
+      "state" : {
+        "revision" : "53f0bc12b7195adc71b8485f2f542482a214f7d0",
+        "version" : "2.2.13"
+      }
+    },
+    {
+      "identity" : "tun2sockskit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/EbrahimTahernejad/Tun2SocksKit",
+      "state" : {
+        "revision" : "dc6d73f5c9fee8306175d0736568da5ffda6eec1",
+        "version" : "5.16.0"
+      }
+    }
+  ],
+  "version" : 3
+}

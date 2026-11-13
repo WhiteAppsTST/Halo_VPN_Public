@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApphudApi</key>
+	<string>$(APPHUD_API_KEY)</string>
+	<key>AppsFlyerDevKey</key>
+	<string>$(APPSFLYER_DEV_KEY)</string>
+	<key>NSAdvertisingAttributionReportEndpoint</key>
+	<string>https://appsflyer-skadnetwork.com/</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Location is used to pick the nearest measurement server for the speed test and to show details of the Wi-Fi network you are connected to.</string>
+	<key>NSLocationTemporaryUsageDescriptionDictionary</key>
+	<dict>
+		<key>SpeedTest</key>
+		<string>The free speed test engine needs your precise location to pick the nearest measurement server.</string>
+		<key>WiFiInfo</key>
+		<string>iOS requires precise location to report the name and security of the Wi-Fi network you are connected to.</string>
+	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Location is used to pick the nearest measurement server for the speed test and to show details of the Wi-Fi network you are connected to.</string>
+	<key>SKAdNetworkItems</key>
+	<array>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>v9wttpbfk9.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>n38lu8286q.skadnetwork</string>
+		</dict>
+	</array>
+	<key>SpeedcheckerLicenseKey</key>
+	<string></string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>VPNBackendAppSecret</key>
+	<string>$(VPN_BACKEND_APP_SECRET)</string>
+</dict>
+</plist>

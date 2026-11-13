@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB4DA4FC2E9E4E2000A7AFC9 /* ApphudSDK in Frameworks */ = {isa = PBXBuildFile; productRef = EB4DA4FB2E9E4E2000A7AFC9 /* ApphudSDK */; };
+		EB56BD202F30BF1800F0143B /* PacketTunnel.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = EB56BD152F30BF1800F0143B /* PacketTunnel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EB56BD2A2F30BFE500F0143B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB56BD292F30BFE500F0143B /* SystemConfiguration.framework */; };
+		EB56BD2C2F30BFED00F0143B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB56BD2B2F30BFED00F0143B /* UIKit.framework */; };
+		EB56BD2D2F30BFF200F0143B /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB56BD172F30BF1800F0143B /* NetworkExtension.framework */; };
+		EB56BD302F30C00800F0143B /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB56BD172F30BF1800F0143B /* NetworkExtension.framework */; };
+		EB9A0004000000000000000A /* LibXray in Frameworks */ = {isa = PBXBuildFile; productRef = EB9A0002000000000000000A /* LibXray */; };
+		EB9A0005000000000000000A /* LibXray in Frameworks */ = {isa = PBXBuildFile; productRef = EB9A0003000000000000000A /* LibXray */; };
+		EB9A0007000000000000000A /* Tun2SocksKit in Frameworks */ = {isa = PBXBuildFile; productRef = EB9A0006000000000000000A /* Tun2SocksKit */; };
+		EBC8903F2F7BA7BE00B57008 /* AppsFlyerLib-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = EBC8903E2F7BA7BE00B57008 /* AppsFlyerLib-Dynamic */; };
+		EBE0BCA02F44A79A00A2D0BC /* SpeedcheckerReportSDK in Frameworks */ = {isa = PBXBuildFile; productRef = EBE0BC9F2F44A79A00A2D0BC /* SpeedcheckerReportSDK */; };
+		EBE0BCA22F44A79A00A2D0BC /* SpeedcheckerSDK in Frameworks */ = {isa = PBXBuildFile; productRef = EBE0BCA12F44A79A00A2D0BC /* SpeedcheckerSDK */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB56BD1E2F30BF1800F0143B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB738C292E6AF945008D7B11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB56BD142F30BF1800F0143B;
+			remoteInfo = PacketTunnel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EB56BD252F30BF1800F0143B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EB56BD202F30BF1800F0143B /* PacketTunnel.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		570A21D7301A43DE001E41EF /* codemagic.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = codemagic.yaml; sourceTree = "<group>"; };
+		EB56BD152F30BF1800F0143B /* PacketTunnel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PacketTunnel.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB56BD172F30BF1800F0143B /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		EB56BD292F30BFE500F0143B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EB56BD2B2F30BFED00F0143B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EB738C312E6AF945008D7B11 /* VPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EB56BD242F30BF1800F0143B /* Exceptions for "PacketTunnel" folder in "PacketTunnel" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = EB56BD142F30BF1800F0143B /* PacketTunnel */;
+		};
+		EB738D0C2E6B00FF008D7B11 /* Exceptions for "VPN" folder in "VPN" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = EB738C302E6AF945008D7B11 /* VPN */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EB56BD192F30BF1800F0143B /* PacketTunnel */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EB56BD242F30BF1800F0143B /* Exceptions for "PacketTunnel" folder in "PacketTunnel" target */,
+			);
+			path = PacketTunnel;
+			sourceTree = "<group>";
+		};
+		EB738C332E6AF945008D7B11 /* VPN */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EB738D0C2E6B00FF008D7B11 /* Exceptions for "VPN" folder in "VPN" target */,
+			);
+			path = VPN;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB56BD122F30BF1800F0143B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB56BD2C2F30BFED00F0143B /* UIKit.framework in Frameworks */,
+				EB56BD2D2F30BFF200F0143B /* NetworkExtension.framework in Frameworks */,
+				EB56BD2A2F30BFE500F0143B /* SystemConfiguration.framework in Frameworks */,
+				EB9A0005000000000000000A /* LibXray in Frameworks */,
+				EB9A0007000000000000000A /* Tun2SocksKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB738C2E2E6AF945008D7B11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE0BCA02F44A79A00A2D0BC /* SpeedcheckerReportSDK in Frameworks */,
+				EB56BD302F30C00800F0143B /* NetworkExtension.framework in Frameworks */,
+				EB4DA4FC2E9E4E2000A7AFC9 /* ApphudSDK in Frameworks */,
+				EBE0BCA22F44A79A00A2D0BC /* SpeedcheckerSDK in Frameworks */,
+				EBC8903F2F7BA7BE00B57008 /* AppsFlyerLib-Dynamic in Frameworks */,
+				EB9A0004000000000000000A /* LibXray in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB56BD162F30BF1800F0143B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB56BD2B2F30BFED00F0143B /* UIKit.framework */,
+				EB56BD292F30BFE500F0143B /* SystemConfiguration.framework */,
+				EB56BD172F30BF1800F0143B /* NetworkExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB738C282E6AF945008D7B11 = {
+			isa = PBXGroup;
+			children = (
+				570A21D7301A43DE001E41EF /* codemagic.yaml */,
+				EB738C332E6AF945008D7B11 /* VPN */,
+				EB56BD192F30BF1800F0143B /* PacketTunnel */,
+				EB56BD162F30BF1800F0143B /* Frameworks */,
+				EB738C322E6AF945008D7B11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB738C322E6AF945008D7B11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB738C312E6AF945008D7B11 /* VPN.app */,
+				EB56BD152F30BF1800F0143B /* PacketTunnel.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB56BD142F30BF1800F0143B /* PacketTunnel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB56BD212F30BF1800F0143B /* Build configuration list for PBXNativeTarget "PacketTunnel" */;
+			buildPhases = (
+				EB56BD112F30BF1800F0143B /* Sources */,
+				EB56BD122F30BF1800F0143B /* Frameworks */,
+				EB56BD132F30BF1800F0143B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EB56BD192F30BF1800F0143B /* PacketTunnel */,
+			);
+			name = PacketTunnel;
+			packageProductDependencies = (
+				EB9A0003000000000000000A /* LibXray */,
+				EB9A0006000000000000000A /* Tun2SocksKit */,
+			);
+			productName = PacketTunnel;
+			productReference = EB56BD152F30BF1800F0143B /* PacketTunnel.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		EB738C302E6AF945008D7B11 /* VPN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB738C3F2E6AF948008D7B11 /* Build configuration list for PBXNativeTarget "VPN" */;
+			buildPhases = (
+				EB738C2D2E6AF945008D7B11 /* Sources */,
+				EB738C2E2E6AF945008D7B11 /* Frameworks */,
+				EB738C2F2E6AF945008D7B11 /* Resources */,
+				EB56BD252F30BF1800F0143B /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB56BD1F2F30BF1800F0143B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EB738C332E6AF945008D7B11 /* VPN */,
+			);
+			name = VPN;
+			packageProductDependencies = (
+				EB4DA4FB2E9E4E2000A7AFC9 /* ApphudSDK */,
+				EBE0BC9F2F44A79A00A2D0BC /* SpeedcheckerReportSDK */,
+				EBE0BCA12F44A79A00A2D0BC /* SpeedcheckerSDK */,
+				EBC8903E2F7BA7BE00B57008 /* AppsFlyerLib-Dynamic */,
+				EB9A0002000000000000000A /* LibXray */,
+			);
+			productName = VPN;
+			productReference = EB738C312E6AF945008D7B11 /* VPN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB738C292E6AF945008D7B11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					EB56BD142F30BF1800F0143B = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					EB738C302E6AF945008D7B11 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = EB738C2C2E6AF945008D7B11 /* Build configuration list for PBXProject "VPN" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				da,
+				de,
+				es,
+				fr,
+				it,
+			);
+			mainGroup = EB738C282E6AF945008D7B11;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				EB4DA4FA2E9E4E2000A7AFC9 /* XCRemoteSwiftPackageReference "ApphudSDK" */,
+				EBE0BC9E2F44A79A00A2D0BC /* XCRemoteSwiftPackageReference "speedchecker-sdk-ios" */,
+				EBC8903D2F7BA7BE00B57008 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Dynamic" */,
+				EB9A0001000000000000000A /* XCRemoteSwiftPackageReference "LibXrayBinary" */,
+				EB9A0008000000000000000A /* XCRemoteSwiftPackageReference "Tun2SocksKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EB738C322E6AF945008D7B11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB738C302E6AF945008D7B11 /* VPN */,
+				EB56BD142F30BF1800F0143B /* PacketTunnel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB56BD132F30BF1800F0143B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB738C2F2E6AF945008D7B11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB56BD112F30BF1800F0143B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB738C2D2E6AF945008D7B11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB56BD1F2F30BF1800F0143B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB56BD142F30BF1800F0143B /* PacketTunnel */;
+			targetProxy = EB56BD1E2F30BF1800F0143B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB56BD222F30BF1800F0143B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PacketTunnel/PacketTunnel.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PacketTunnel/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PacketTunnel;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0.3;
+				OTHER_LDFLAGS = "-lresolv";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guardiumvpn.app.PacketTunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EB56BD232F30BF1800F0143B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PacketTunnel/PacketTunnel.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PacketTunnel/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PacketTunnel;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0.3;
+				OTHER_LDFLAGS = "-lresolv";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guardiumvpn.app.PacketTunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EB738C3D2E6AF948008D7B11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB738C3E2E6AF948008D7B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB738C402E6AF948008D7B11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VPN/VPN.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VPN/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Halo Hub";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the camera to scan QR codes containing VPN server configurations, so you can add servers without typing them manually.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We request permission to track your activity for personalized content. Your privacy is important to us, and you can manage settings in your device.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.3;
+				OTHER_LDFLAGS = "-lresolv";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guardiumvpn.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EB738C412E6AF948008D7B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "VPN/VPN-Release.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VPN/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Halo Hub";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the camera to scan QR codes containing VPN server configurations, so you can add servers without typing them manually.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We request permission to track your activity for personalized content. Your privacy is important to us, and you can manage settings in your device.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.3;
+				OTHER_LDFLAGS = "-lresolv";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guardiumvpn.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB56BD212F30BF1800F0143B /* Build configuration list for PBXNativeTarget "PacketTunnel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB56BD222F30BF1800F0143B /* Debug */,
+				EB56BD232F30BF1800F0143B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB738C2C2E6AF945008D7B11 /* Build configuration list for PBXProject "VPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB738C3D2E6AF948008D7B11 /* Debug */,
+				EB738C3E2E6AF948008D7B11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB738C3F2E6AF948008D7B11 /* Build configuration list for PBXNativeTarget "VPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB738C402E6AF948008D7B11 /* Debug */,
+				EB738C412E6AF948008D7B11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EB4DA4FA2E9E4E2000A7AFC9 /* XCRemoteSwiftPackageReference "ApphudSDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apphud/ApphudSDK";
+			requirement = {
+				kind = exactVersion;
+				version = 4.0.4;
+			};
+		};
+		EB9A0001000000000000000A /* XCRemoteSwiftPackageReference "LibXrayBinary" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TST-TEAM-APPS/LibXrayBinary";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		EB9A0008000000000000000A /* XCRemoteSwiftPackageReference "Tun2SocksKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/EbrahimTahernejad/Tun2SocksKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.16.0;
+			};
+		};
+		EBC8903D2F7BA7BE00B57008 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Dynamic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Dynamic";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.1;
+			};
+		};
+		EBE0BC9E2F44A79A00A2D0BC /* XCRemoteSwiftPackageReference "speedchecker-sdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/speedchecker/speedchecker-sdk-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.13;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EB4DA4FB2E9E4E2000A7AFC9 /* ApphudSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB4DA4FA2E9E4E2000A7AFC9 /* XCRemoteSwiftPackageReference "ApphudSDK" */;
+			productName = ApphudSDK;
+		};
+		EB9A0002000000000000000A /* LibXray */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB9A0001000000000000000A /* XCRemoteSwiftPackageReference "LibXrayBinary" */;
+			productName = LibXray;
+		};
+		EB9A0003000000000000000A /* LibXray */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB9A0001000000000000000A /* XCRemoteSwiftPackageReference "LibXrayBinary" */;
+			productName = LibXray;
+		};
+		EB9A0006000000000000000A /* Tun2SocksKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB9A0008000000000000000A /* XCRemoteSwiftPackageReference "Tun2SocksKit" */;
+			productName = Tun2SocksKit;
+		};
+		EBC8903E2F7BA7BE00B57008 /* AppsFlyerLib-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBC8903D2F7BA7BE00B57008 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Dynamic" */;
+			productName = "AppsFlyerLib-Dynamic";
+		};
+		EBE0BC9F2F44A79A00A2D0BC /* SpeedcheckerReportSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBE0BC9E2F44A79A00A2D0BC /* XCRemoteSwiftPackageReference "speedchecker-sdk-ios" */;
+			productName = SpeedcheckerReportSDK;
+		};
+		EBE0BCA12F44A79A00A2D0BC /* SpeedcheckerSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBE0BC9E2F44A79A00A2D0BC /* XCRemoteSwiftPackageReference "speedchecker-sdk-ios" */;
+			productName = SpeedcheckerSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EB738C292E6AF945008D7B11 /* Project object */;
+}
